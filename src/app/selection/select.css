@@ -1,0 +1,93 @@
+/* .dept{ */
+    /* top: 20px;
+    display: flex;
+    position: relative; */
+/* } */
+
+.selections{
+    border: 2px 2px;
+    border-width: 2px;
+    
+
+}
+
+.selections:hover{
+    background-image: linear-gradient(to right, #04b934, #3933e3);
+    size: 10px;
+}
+
+.bench{
+    align-items: center;
+    padding: 5px;
+    display: absolute;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+
+}
+
+.down-button{
+    text-align: center;
+    color: #d395f4;
+    font-size: 25px;
+    
+}
+
+.down-button:hover{
+    color: rgb(255, 55, 55);
+    
+}
+.DownloadSelections:hover{
+    background-image: linear-gradient(to right, #04b934, #3933e3);
+}
+
+.modify{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    
+}
+
+.goSelect{
+    background-color: aliceblue;
+    color: rgb(117, 163, 232);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+    padding: 10px;
+  }
+  .goSelect:hover{
+    color: whitesmoke;
+    background-color: #6daaec;
+  }
+
+.button{
+    background-color: aliceblue;
+    color: rgb(117, 163, 232);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    width: auto;
+
+}
+.button:hover{
+    color: whitesmoke;
+    background-color: #6daaec;
+}

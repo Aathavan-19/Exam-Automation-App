@@ -1,0 +1,102 @@
+.room-allocate {
+  padding: 20px;
+  margin: auto; /* Center align */
+  width: 50%; /* Set width */
+  display: flex;
+  flex-direction: column;
+
+}
+
+.student {
+  display: flex;
+  padding: 20px;
+  margin-top: 20px; /* Space between containers */
+  margin-bottom: 20px; /* Space between containers */
+  margin-left: auto; /* Center align */
+  margin-right: auto; /* Center align */
+  width: 100%; /* Set width */
+}
+
+.container,
+.container2 {
+  color: #0056b3;
+  padding: 20px; /* Add padding for spacing */
+  margin-bottom: 20px; /* Add space between containers */
+  /* background-color: rgba(255, 255, 255, 0.5); Faded white background color */
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.container label,
+.container2 label {
+  text-align: left; /* Align labels to the left */
+  margin-bottom: 10px; /* Space between label and input field */
+}
+
+.container input,
+.container2 input {
+  background-color: aliceblue;
+  width: 100%; /* Set input width to 100% */
+  padding: 8px; /* Add padding for input fields */
+  margin-bottom: 10px; /* Space between input fields */
+  box-sizing: border-box; /* Include padding in input field width */
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.login-form-button {
+  margin-top: 20px; /* Space between button and input fields */
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%; /* Make button flexible */
+  box-sizing: border-box; /* Include padding in button width */
+}
+
+button:hover {
+  border: none;
+  color: white;
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+button{
+  color: rgb(93, 131, 184);
+  border: 1px solid black;
+
+}
+
+a{
+  text-align: center;
+}
+
+body{
+  background-color: snow;
+  align-items: center;
+  justify-content: center;
+}
+
+.goSelect{
+  background-color: aliceblue;
+  color: rgb(117, 163, 232);
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  text-align: center;
+}
+.goSelect:hover{
+  color: whitesmoke;
+  background-color: #6daaec;
+}
